@@ -64,11 +64,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 ## KAMRAN
-    - **https://laravel-bootstrap-components.com/examples/forms
-    - **https://laravel-bootstrap-components.com/components/forms
-    - **https://www.itsolutionstuff.com/post/laravel-53-create-bootstrap-contact-us-form-using-form-requestexample.html
-    - **https://www.positronx.io/laravel-contact-form-example-tutorial/
-    - **https://laratutorials.com/laravel-8-form-example-tutorial/?ref=morioh.com
+    ### https://laravel-bootstrap-components.com/examples/forms
+    ### https://laravel-bootstrap-components.com/components/forms
+    ### https://www.itsolutionstuff.com/post/laravel-53-create-bootstrap-contact-us-form-using-form-requestexample.html
+    ### https://www.positronx.io/laravel-contact-form-example-tutorial/
+    ### https://laratutorials.com/laravel-8-form-example-tutorial/?ref=morioh.com
 
 ## {{csrf_tocken()}}
     ### https://laravel.com/docs/8.x/csrf
