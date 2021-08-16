@@ -63,16 +63,20 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-#### KAMRAN
-https://laravel-bootstrap-components.com/examples/forms
-https://laravel-bootstrap-components.com/components/forms
-https://www.itsolutionstuff.com/post/laravel-53-create-bootstrap-contact-us-form-using-form-requestexample.html
-https://www.positronx.io/laravel-contact-form-example-tutorial/
-https://laratutorials.com/laravel-8-form-example-tutorial/?ref=morioh.com
+## KAMRAN
+    ### https://laravel-bootstrap-components.com/examples/forms
+    ### https://laravel-bootstrap-components.com/components/forms
+    ### https://www.itsolutionstuff.com/post/laravel-53-create-bootstrap-contact-us-form-using-form-requestexample.html
+    ### https://www.positronx.io/laravel-contact-form-example-tutorial/
+    ### https://laratutorials.com/laravel-8-form-example-tutorial/?ref=morioh.com
 
 {{csrf_tocken()}}
 https://laravel.com/docs/8.x/csrf
 https://www.codegrepper.com/code-examples/php/what+is+_token+in+laravel+request
 https://stackoverflow.com/questions/34446740/laravel-post-json-using-csrf-protection
+
+Git:
+https://stackoverflow.com/search?q=git+how+to+change+branch&s=5d813a14-c846-4db6-858f-5e34a2e7179c
+
 
 
