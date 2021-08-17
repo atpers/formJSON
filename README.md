@@ -79,4 +79,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     ### https://stackoverflow.com/search?q=git+how+to+change+branch&s=5d813a14-c846-4db6-858f-5e34a2e7179c
 
 
-
+ 
+## How to redirect:
+    ### https://laravel.com/docs/8.x/redirects
+## Multiple ->with():
+    ### https://stackoverflow.com/questions/20110757/laravel-pass-more-than-one-variable-to-view
+         

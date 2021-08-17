@@ -134,8 +134,10 @@ class ProfileController extends Controller
         /**
          * How to redirect:
          * https://laravel.com/docs/8.x/redirects
+         * Multiple ->with():
+         * https://stackoverflow.com/questions/20110757/laravel-pass-more-than-one-variable-to-view
          */
-        return redirect()->route('profile')->with('success', 'Profile gespeichert!')->with('success_json',  json_encode ($tmpData));
+        return redirect()->route('profile')->with('success', 'Profile gespeichert!')->with('success_json',  $tmpData);
         // return redirect('/')->with('success', 'Profile gespeichert');
 
 

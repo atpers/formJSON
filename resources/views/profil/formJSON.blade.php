@@ -3,6 +3,11 @@
 {{--additional CSS Files or Links--}}
 @section('additionalStyles')
     <style>
+    .sup {
+        position: relative;
+        bottom: 1ex;
+        font-size: 80%;
+        }
     </style>
 @endsection
 @section('content')
@@ -59,7 +64,7 @@
                                     <div class="col-md-6">
                                         <select class="form-control @error('anrede') is-invalid @enderror" value="{{old('anrede')}}" id="anrede" name="anrede" autofocus>
                                             <option value="">Bitte Wählen Sie eine Anrede</option>
-                                            <option value="nothing">Keine Angabe</option>
+                                            <option value="Keine Angabe">Keine Angabe</option>
                                             <option value="Frau">Frau</option>
                                             <option value="Herr">Herr</option>
                                             <option value="Test">Test</option>
@@ -100,7 +105,7 @@
                                         {{-- <select class="form-control btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" type="button" id="title" autofocus> --}}
                                         <select class="form-control @error('title') is-invalid @enderror" value="{{old('title')}}" value="{{old('title')}}" id="title" name="title" autofocus>
                                             <option value="">Bitte Wählen Sie ein Title</option>
-                                            <option value="nothing">Keine Angabe</option>
+                                            <option value="Keine Angabe">Keine Angabe</option>
                                             <option value="Dr.">Dr.</option>
                                             <option value="Dipl. Ing.">Dipl. Ing.</option>
                                             <option value="Mag.">Mag.</option>
@@ -143,7 +148,7 @@
                                     <div class="col-md-6">
                                         <select class="form-control @error('suffix') is-invalid @enderror" value="{{old('suffix')}}" id="suffix" name="suffix" autofocus>
                                             <option value="">Bitte Wählen Sie eine Suffix</option>
-                                            <option value="nothing">Keine Angabe</option>
+                                            <option value="Keine Angabe">Keine Angabe</option>
                                             <option value="B.Sc.">B.Sc.</option>
                                             <option value="B.A.">B.A.</option>
                                             <option value="M.Sc.">M.Sc.</option>

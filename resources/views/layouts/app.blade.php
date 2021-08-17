@@ -94,8 +94,9 @@
         </nav>
 
         <main class="py-4">
+            @include('message')
             <div class="container">
-                @include('message')
+                {{-- @include('message') --}}
             </div>
             @yield('content')
         </main>
