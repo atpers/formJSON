@@ -52,7 +52,7 @@
                             <form class="user" method="POST" action="{{ route('store-profile') }}"
                                   enctype="multipart/form-data">
                                 @csrf
-                                {{ csrf_token() }}
+                                {{-- {{ csrf_token() }} --}}
 
                                 <div class="form-group row">
                                     <label for="anrede" class="col-md-4 col-form-label text-md-right" style="color: rgb(255, 255, 255)">Anrede</label>

@@ -1,4 +1,4 @@
-@if ($message = Session::get('success'))
+@if ($message = Session::get('success_json'))
 
 <div class="alert alert-success alert-block">
 

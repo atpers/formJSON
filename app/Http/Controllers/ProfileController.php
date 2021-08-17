@@ -37,7 +37,7 @@ class ProfileController extends Controller
     public function store(Request $request)
     {
         // dd($request->all());
-        // $tmpData = json_encode($request);
+        $tmpData = json_encode($request->all());
         // $tmpDate = date('Y-m-d', strtotime($request->get('date')));
 
         $AddressCustomMessages = [
@@ -135,7 +135,7 @@ class ProfileController extends Controller
          * How to redirect:
          * https://laravel.com/docs/8.x/redirects
          */
-        return redirect()->route('profile')->with('success', 'Profile gespeichert!');
+        return redirect()->route('profile')->with('success', 'Profile gespeichert!')->with('success_json',  json_encode ($tmpData));
         // return redirect('/')->with('success', 'Profile gespeichert');
 
 
