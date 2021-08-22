@@ -85,3 +85,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Multiple ->with():
     ### https://stackoverflow.com/questions/20110757/laravel-pass-more-than-one-variable-to-view
          
+## JSON:
+    ### https://stackoverflow.com/questions/34446740/laravel-post-json-using-csrf-protection
